@@ -1,0 +1,18 @@
+{
+    "asset": "661c7889d112cd447b86a0cc2a858901",
+    "fileName": "0197ab42-09cc-7865-ba27-7835337b1973.png",
+    "prompt": "generate a red slime like reference",
+    "negativePrompt": "",
+    "model": "242b56c1-2224-41c4-8949-2ba760bbfc69",
+    "customSeed": -1,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0
+}

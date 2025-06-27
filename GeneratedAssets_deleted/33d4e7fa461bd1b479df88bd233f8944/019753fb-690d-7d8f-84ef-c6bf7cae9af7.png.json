@@ -1,0 +1,18 @@
+{
+    "asset": "33d4e7fa461bd1b479df88bd233f8944",
+    "fileName": "019753fb-690d-7d8f-84ef-c6bf7cae9af7.png",
+    "prompt": "make this dungeon room look better in a catacomb sence",
+    "negativePrompt": "",
+    "model": "e7d34c27-6927-41dd-8c59-04d1aee5acd4",
+    "customSeed": -1,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0
+}

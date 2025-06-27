@@ -1,0 +1,18 @@
+{
+    "asset": "cf37b5ea56f7efa48a34d89b0a58a117",
+    "fileName": "019744a3-2648-749b-ac4d-da0a257ea78a.png",
+    "prompt": "",
+    "negativePrompt": "",
+    "model": "",
+    "customSeed": -1,
+    "refinementMode": "Upscale",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 2
+}

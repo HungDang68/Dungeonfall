@@ -1,0 +1,18 @@
+{
+    "asset": "b559674c41b5ae2488320fd980d0cf40",
+    "fileName": "0197452c-0e3f-7b69-96e7-b67cbfec2d2e.png",
+    "prompt": "dungeon room exactly like reference but generate full room with all 4 entrance north east south west",
+    "negativePrompt": "anything that isnt in the reference",
+    "model": "d4800c06-1388-4587-b3cd-455b67e220df",
+    "customSeed": -1,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0
+}

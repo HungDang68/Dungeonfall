@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e13a49cd9a482c4798f5cf5ee5bb83d, type: 3}
+  m_Name: Level1 1
+  m_EditorClassIdentifier: Assembly-CSharp::DungeonLevel
+  levelName: 1_test
+  roomTemplateList:
+  - {fileID: 11400000, guid: fa3c072b09484e047941bd1349e2c6eb, type: 2}
+  - {fileID: 11400000, guid: 4260fd985db982d43b0111f2fbb17565, type: 2}
+  - {fileID: 11400000, guid: 7034edc20f3bb2a418ed6da1203a1275, type: 2}
+  - {fileID: 11400000, guid: 7feb621f1adcadf4fb453ae0fc46fbaa, type: 2}
+  - {fileID: 11400000, guid: 9abeee2a598d10f4a8f5f87464af4295, type: 2}
+  - {fileID: 11400000, guid: 56c27a9020233de469f07eb3f26daebc, type: 2}
+  - {fileID: 11400000, guid: 811c72664571f6b4c96ea808b8d5d575, type: 2}
+  - {fileID: 11400000, guid: 5808a8e89a2dfd045880ca9abae48704, type: 2}
+  - {fileID: 11400000, guid: c2dc1a35599eda14ebc11591d780c6ee, type: 2}
+  - {fileID: 11400000, guid: 4d1860622e9423841a606d68e592fb9d, type: 2}
+  roomNodeGraphList:
+  - {fileID: 11400000, guid: b9960a1b4f95d194097fab718f97ed53, type: 2}
+  - {fileID: 11400000, guid: d7c73cbd14429f04aa8ca0755fa5e7b8, type: 2}

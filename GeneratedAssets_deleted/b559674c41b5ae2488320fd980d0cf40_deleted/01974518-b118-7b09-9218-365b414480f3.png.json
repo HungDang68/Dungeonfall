@@ -1,0 +1,18 @@
+{
+    "asset": "b559674c41b5ae2488320fd980d0cf40",
+    "fileName": "01974518-b118-7b09-9218-365b414480f3.png",
+    "prompt": "map exactly like reference but generate full room with all 4 entrance north east south west",
+    "negativePrompt": "any thing that isnt in the original imaage",
+    "model": "16bed882-01e7-4746-b232-15ae97eb1d62",
+    "customSeed": -1,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0
+}

@@ -1,0 +1,18 @@
+{
+    "asset": "2d0c77353ec0b314f991f952e8002403",
+    "fileName": "0197448b-3d1b-7ffa-a9c9-6b67e12a413f.png",
+    "prompt": "Generate dungeon like refference but better i meant the full room",
+    "negativePrompt": "",
+    "model": "242b56c1-2224-41c4-8949-2ba760bbfc69",
+    "customSeed": -1,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0
+}

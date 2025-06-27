@@ -1,0 +1,18 @@
+{
+    "asset": "cf37b5ea56f7efa48a34d89b0a58a117",
+    "fileName": "019744b9-2f5d-728c-bbb1-3999681e6089.png",
+    "prompt": "",
+    "negativePrompt": "",
+    "model": "",
+    "customSeed": -1,
+    "refinementMode": "RemoveBackground",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0
+}

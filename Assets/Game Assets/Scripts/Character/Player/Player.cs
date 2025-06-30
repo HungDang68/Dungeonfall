@@ -3,6 +3,7 @@ using static UnityEngine.Time;
 using Mirror;
 using UnityEngine.InputSystem;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 
 public class Player : NetworkBehaviour, IMoveable
@@ -100,7 +101,20 @@ public class Player : NetworkBehaviour, IMoveable
         while (true && myBody != null)
         {
             SavePlayer();
+            Debug.Log("Player stats: " + personalStats.GetSpeed());
             yield return new WaitForSeconds(10);
+        }
+    }
+    private void Death()
+    {
+        if (isServer && isClient)
+        {
+            // This is the host
+        }
+        if (isClient && !isServer)
+        {
+            Destroy(gameObject);
+            SceneManager.LoadScene("Start Scene");
         }
     }
     public void SavePlayer()
@@ -111,6 +125,7 @@ public class Player : NetworkBehaviour, IMoveable
         SaveSystem.SaveStats(personalStats);
         isSaving = false;
     }
+
     private void LoadPlayer()
     {
         if (!isLocalPlayer || isSaving) { return; }

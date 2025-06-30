@@ -211,6 +211,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.AI.Generators.UI.AIDr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.AI.Material.Srp", "Unity.AI.Material.Srp.csproj", "{03BDEBB4-E2FA-5397-3FCF-5FEFBFEFB6FC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParrelSync", "ParrelSync.csproj", "{6069A16A-7C77-4B0E-275F-101F6EFD7814}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Settings.Editor", "Unity.Settings.Editor.csproj", "{81B06127-BF7D-7D06-BB30-2520A0C22A4B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.InputSystem.TestFramework", "Unity.InputSystem.TestFramework.csproj", "{6507C503-2D85-6A11-0629-A19FD1849E13}"
@@ -713,6 +715,10 @@ Global
 		{03BDEBB4-E2FA-5397-3FCF-5FEFBFEFB6FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03BDEBB4-E2FA-5397-3FCF-5FEFBFEFB6FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03BDEBB4-E2FA-5397-3FCF-5FEFBFEFB6FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6069A16A-7C77-4B0E-275F-101F6EFD7814}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6069A16A-7C77-4B0E-275F-101F6EFD7814}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6069A16A-7C77-4B0E-275F-101F6EFD7814}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6069A16A-7C77-4B0E-275F-101F6EFD7814}.Release|Any CPU.Build.0 = Release|Any CPU
 		{81B06127-BF7D-7D06-BB30-2520A0C22A4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{81B06127-BF7D-7D06-BB30-2520A0C22A4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81B06127-BF7D-7D06-BB30-2520A0C22A4B}.Release|Any CPU.ActiveCfg = Release|Any CPU

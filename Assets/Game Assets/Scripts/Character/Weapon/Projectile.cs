@@ -6,7 +6,7 @@ using System.Collections;
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(Health))]
 
-public class Projectile : NetworkBehaviour
+public class Projectile : NetworkBehaviour, IMoveable
 {
     [ShowInInspector]
     private float deathDelay = 4;

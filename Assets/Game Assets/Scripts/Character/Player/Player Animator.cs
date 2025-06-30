@@ -23,45 +23,43 @@ public class PlayerAnimator : NetworkBehaviour
     private void Animate()
     {
         WalkAnimation();
-
-        FlipSprite();
     }
 
     private void WalkAnimation()
     {
         if (!isLocalPlayer) return;
-        if (rb2d.linearVelocity.magnitude >= 0.1f)
+        if (rb2d.linearVelocity.magnitude >= 0.1f && rb2d.linearVelocity.x > 0.1f)
         {
-            animator.SetBool("Is Walking", true);
+            animator.SetBool("Is Walking Right", true);
+            animator.SetBool("Is Walking Left", false);
+        }
+        else if (rb2d.linearVelocity.magnitude >= 0.1f && rb2d.linearVelocity.x < -0.1f)
+        {
+            animator.SetBool("Is Walking Right", false);
+            animator.SetBool("Is Walking Left", true);
         }
         else
         {
-            animator.SetBool("Is Walking", false);
+            animator.SetBool("Is Walking Right", false);
+            animator.SetBool("Is Walking Left", false);
         }
-    }
 
-    private void FlipSprite()
-    {
-        if (!isLocalPlayer) return;
-        if (rb2d.linearVelocity.x > 0.1f)
+        if (rb2d.linearVelocity.y > 0.1f)
         {
-            CmdSetFlipX(false);
+            animator.SetBool("Is Walking Up", true);
         }
-        else if (rb2d.linearVelocity.x < -0.1f)
+        else
         {
-            CmdSetFlipX(true);
+            animator.SetBool("Is Walking Up", false);
         }
-    }
 
-    [Command]// Update on the server
-    private void CmdSetFlipX(bool flipX)
-    {
-        OnFlipXChanged(flipX);
-    }
-
-    [ClientRpc]//Client call this
-    private void OnFlipXChanged(bool flipX)
-    {
-        spriteRenderer.flipX = flipX;
+        if (rb2d.linearVelocity.y < -0.1f)
+        {
+            animator.SetBool("Is Walking Down", true);
+        }
+        else
+        {
+            animator.SetBool("Is Walking Down", false);
+        }
     }
 }

@@ -97,6 +97,7 @@ public class CustomNetworkManager : NetworkManager
         base.ServerChangeScene(newSceneName);
     }
 
+
     /// <summary>
     /// Called from ServerChangeScene immediately before SceneManager.LoadSceneAsync is executed
     /// <para>This allows server to do work / cleanup / prep before the scene changes.</para>

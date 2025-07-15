@@ -21,8 +21,6 @@ public class DungeonBuilder : SingletomMonobehavior<DungeonBuilder>
         base.Awake();
 
         LoadRoomNodeTypeList();
-
-        // GameResources.Instance.dimedMaterial.SetFloat("Alpha_Slider", 1f);
     }
 
     private void LoadRoomNodeTypeList()
@@ -82,6 +80,8 @@ public class DungeonBuilder : SingletomMonobehavior<DungeonBuilder>
             GameObject roomGameObject = Instantiate(room.prefab, roomPosition, Quaternion.identity, transform);
 
             InstantiatedRoom instantiatedRoom = roomGameObject.GetComponentInChildren<InstantiatedRoom>();
+
+            NetworkServer.Spawn(roomGameObject);
 
             instantiatedRoom.room = room;
 

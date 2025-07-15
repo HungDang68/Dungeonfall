@@ -61,6 +61,7 @@ GameObject:
   - component: {fileID: 515254303030823678}
   - component: {fileID: 6230559660869327311}
   - component: {fileID: 4001814551453108315}
+  - component: {fileID: 7255182377598278588}
   m_Layer: 12
   m_Name: BossRoom_MyRoom1
   m_TagString: Untagged
@@ -143,6 +144,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5c6503b4882ace49b929fbd0ddf2593, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantiatedRoom
+  syncDirection: 0
+  syncMode: 0
+  syncInterval: 0
   grid: {fileID: 0}
   groundTileMap: {fileID: 0}
   decoration1TileMap: {fileID: 0}
@@ -153,6 +157,23 @@ MonoBehaviour:
   roomColliderBounds:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0, y: 0, z: 0}
+--- !u!114 &7255182377598278588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3116218219496867841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b91ecbcc199f4492b9a91e820070131, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Mirror::Mirror.NetworkIdentity
+  sceneId: 0
+  _assetId: 3788769942
+  serverOnly: 0
+  visibility: 0
+  hasSpawned: 0
 --- !u!1 &3247568750263453989
 GameObject:
   m_ObjectHideFlags: 0
@@ -195,7 +216,7 @@ GameObject:
   - component: {fileID: 5235602385280776813}
   - component: {fileID: 6179494085823753528}
   - component: {fileID: 8738987334470683066}
-  m_Layer: 12
+  m_Layer: 11
   m_Name: Tilemap_Minimap
   m_TagString: minimapTilemap
   m_Icon: {fileID: 0}

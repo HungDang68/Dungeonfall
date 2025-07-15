@@ -6,7 +6,7 @@ public class EnemyDetailsSO : ScriptableObject
 {
     public string enemyName;
     public GameObject enemyPrefab;
-    public float chaseDistance = 50f;
+    public float chaseDistance = 20f;
     public float attackDelay = 0.5f;
     public int speed = 10;
     public int strength = 20;

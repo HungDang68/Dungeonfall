@@ -14,5 +14,6 @@ public static class Settings
 
     public const string playerTag = "Player";
     public const string playerWeapon = "playerWeapon";
+    public const string startScene = "Start Scene";
 
 }

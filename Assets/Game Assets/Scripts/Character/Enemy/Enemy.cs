@@ -10,6 +10,7 @@ using System;
 
 public class Enemy : NetworkBehaviour, IMoveable
 {
+    public bool isBoss = false;
     public Stats stats = new Stats();
     public EnemyDetailsSO enemyDetails;
     private EnemyMovementAI enemyMovementAI;
@@ -55,6 +56,10 @@ public class Enemy : NetworkBehaviour, IMoveable
     private void OnDeathListener()
     {
         Destroy(gameObject);
+        if (isBoss)
+        {
+            GameManager.Instance.SetLevelComplete();
+        }
     }
     public void EnemyInit(EnemyDetailsSO enemyDetailsSO, int enemiesSpawnNumber, DungeonLevel dungeonLevel)
     {

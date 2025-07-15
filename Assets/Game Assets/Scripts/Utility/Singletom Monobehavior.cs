@@ -1,7 +1,7 @@
 using UnityEngine;
 using Mirror;
 
-public abstract class SingletomMonobehavior<T> : NetworkBehaviour where T : MonoBehaviour
+public abstract class SingletomMonobehavior<T> : NetworkBehaviour where T : NetworkBehaviour
 {
     private static T instance;
 

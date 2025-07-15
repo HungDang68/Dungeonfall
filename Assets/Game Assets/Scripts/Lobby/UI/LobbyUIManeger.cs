@@ -76,7 +76,7 @@ public class LobbyUIManeger : NetworkBehaviour
     }
     public void OnPlayButtonClicked()
     {
-        if (NetworkServer.active)
+        if (NetworkServer.active)   
         {
             CustomNetworkManager.singleton.ServerChangeScene("Dungeon");
         }

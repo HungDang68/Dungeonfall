@@ -14,8 +14,5 @@ public enum GameState
     levelCompleted,
     gameWon,
     gameLost,
-    gamePause,
-    dungeonOverviewMap,
-    restartGame
 }
 

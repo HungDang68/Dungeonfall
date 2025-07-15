@@ -18,7 +18,7 @@ public class Stats
     private int strength = 100;
     private int critRate = 10;
     private int critDamage = 100;
-    private int moveSpeed = 2000;
+    private int moveSpeed = 35;
 
 
 

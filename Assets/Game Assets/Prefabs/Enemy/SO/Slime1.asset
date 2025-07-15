@@ -14,9 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyDetails
   enemyName: Slime1
   enemyPrefab: {fileID: 6676892564947875100, guid: 9d5d5df66576f7540b4f205fc5533792, type: 3}
-  chaseDistance: 50
+  chaseDistance: 20
   attackDelay: 0.5
   speed: 10
   strength: 10
   maxHealth: 200
   armor: 0
+  exp: 20

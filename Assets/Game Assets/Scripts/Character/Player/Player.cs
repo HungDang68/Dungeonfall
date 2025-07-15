@@ -8,12 +8,14 @@ using UnityEngine.SceneManagement;
 
 public class Player : NetworkBehaviour, IMoveable
 {
+    SpriteRenderer spriteRenderer;
+    PlayerInput input;
     private bool isSaving = false;
     private Weapon weapon;
     private PlayerCanvas playerCanvas;
     [SerializeField] private Stats personalStats = new Stats();
     private Stats totalStats;
-    private Health health;
+    public Health health;
     private Rigidbody2D myBody;
     private BoxCollider2D boxCollider2D;
     private Vector2 myPosition;
@@ -21,7 +23,8 @@ public class Player : NetworkBehaviour, IMoveable
     {
         if (!isLocalPlayer) { return; }
         myBody = GetComponent<Rigidbody2D>();
-        // LoadPlayer();
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        LoadPlayer();
         playerCanvas = GetComponent<PlayerCanvas>();
         health = GetComponent<Health>();
         weapon = GetComponentInChildren<Weapon>();
@@ -44,17 +47,22 @@ public class Player : NetworkBehaviour, IMoveable
         StartCoroutine(SaveStatsAfterTime());
         health.OnHit.AddListener(OnHit);
         health.OnDeath.AddListener(OnHit);
+        health.OnDeath.AddListener(Death);
         Debug.Log("Player total damage :" + totalStats.CalculateDamage());
-
+        input = GetComponentInChildren<PlayerInput>();
+        if (input == null)
+        {
+            Debug.Log("Bro its null");
+        }
 
     }
 
-    // void OnEnable()
-    // {
-    //     if (!isLocalPlayer) { return; }
+    void OnEnable()
+    {
+        if (!isLocalPlayer) { return; }
 
 
-    // }
+    }
     void OnDisable()
     {
         if (!isLocalPlayer) { return; }
@@ -85,16 +93,15 @@ public class Player : NetworkBehaviour, IMoveable
             Debug.LogError("myPosition is null! Ensure OnMove() is being called to update myPosition.");
             return;
         }
-        myBody.linearVelocity = myPosition * totalStats.GetSpeed() * deltaTime;
+        myBody.linearVelocity = myPosition * totalStats.GetSpeed();
 
     }
 
     private void OnMove(InputValue inputValue)
     {
-        if (isLocalPlayer)
-        {
-            myPosition = inputValue.Get<Vector2>();
-        }
+        if (!isLocalPlayer) { return; }
+
+        myPosition = inputValue.Get<Vector2>();
     }
     private IEnumerator SaveStatsAfterTime()
     {
@@ -107,15 +114,15 @@ public class Player : NetworkBehaviour, IMoveable
     }
     private void Death()
     {
-        if (isServer && isClient)
+        PlayerSetter setter = GetComponent<PlayerSetter>();
+        if (setter == null)
         {
-            // This is the host
+            Debug.Log("Bro how is this null");
         }
-        if (isClient && !isServer)
-        {
-            Destroy(gameObject);
-            SceneManager.LoadScene("Start Scene");
-        }
+
+        GameManager.Instance.SetPlayerDeath();
+        input.DeactivateInput();
+        spriteRenderer.enabled = false;
     }
     public void SavePlayer()
     {
@@ -142,7 +149,7 @@ public class Player : NetworkBehaviour, IMoveable
     public void OnAttack()
     {
         weapon.PerformAttack(totalStats.CalculateDamage(), gameObject);
-    }
+    }   
     public void OnGetEXP()
     {
         if (!isLocalPlayer) { return; }

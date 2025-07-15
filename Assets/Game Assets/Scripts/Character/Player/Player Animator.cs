@@ -10,7 +10,7 @@ public class PlayerAnimator : NetworkBehaviour
     {
         if (!isLocalPlayer) return;
         animator = GetComponent<Animator>();
-        rb2d = GetComponent<Rigidbody2D>();
+        rb2d = GetComponentInParent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
 

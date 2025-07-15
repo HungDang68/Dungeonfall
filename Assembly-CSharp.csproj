@@ -61,6 +61,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
     <Compile Include="Assets\Game Assets\Scripts\Character\Enemy\SpawnableObjectByLevel.cs" />
     <Compile Include="Assets\Game Assets\Scripts\Character\Weapon\Weapon.cs" />
+    <Compile Include="Assets\Game Assets\Scripts\Dungeon\TilemapSync.cs" />
     <Compile Include="Assets\Game Assets\Scripts\Dungeon\Graph\RoomNodeTypeSO.cs" />
     <Compile Include="Assets\Game Assets\Scripts\Astar\AStar.cs" />
     <Compile Include="Assets\Game Assets\Scripts\Lobby\CustomNetworkManager.cs" />

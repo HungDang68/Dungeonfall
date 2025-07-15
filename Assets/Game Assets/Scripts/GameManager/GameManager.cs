@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using Mirror;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 [DisallowMultipleComponent]
 public class GameManager : SingletomMonobehavior<GameManager>
@@ -21,12 +22,19 @@ public class GameManager : SingletomMonobehavior<GameManager>
     }
     private void Update()
     {
-
         HandleGameState();
 
         if (Input.GetKeyDown(KeyCode.R))
         {
             gameState = GameState.gameStarted;
+        }
+        if (Input.GetKeyDown(KeyCode.T))
+        {
+            gameState = GameState.gameLost;
+        }
+        if (Input.GetKeyDown(KeyCode.Y))
+        {
+            gameState = GameState.gameWon;
         }
     }
     void OnEnable()
@@ -49,8 +57,72 @@ public class GameManager : SingletomMonobehavior<GameManager>
                 gameState = GameState.playingLevel;
 
                 break;
+            case GameState.levelCompleted:
+                LevelCompleteDealer();
+
+                break;
+            case GameState.gameWon:
+                GameWonDealer();
+
+                break;
+
+            case GameState.gameLost:
+                GameLostDealer();
+
+                break;
         }
     }
+
+    private void GameWonDealer()
+    {
+        PanelSwapper.Instance.SwapPanel("WinPanel");
+    }
+    private void GameLostDealer()
+    {
+        PanelSwapper.Instance.SwapPanel("LosePanel");
+    }
+
+    private void LevelCompleteDealer()
+    {
+        if (currentDungeonLevelListIndex == dungeonLevelList.Count - 1)
+        {
+            gameState = GameState.gameWon;
+        }
+        //Complete level stuff here
+        else
+        {
+
+        }
+    }
+
+    public void SetPlayerDeath()
+    {
+        List<Player> players = GetAllPlayers();
+        int deadPlayerCount = 0;
+
+        foreach (Player player in players)
+        {
+            if (player.health.GetHealth() <= 0)
+            {
+                deadPlayerCount++;
+            }
+            else
+            {
+                continue;
+            }
+        }
+
+        if (deadPlayerCount >= players.Count)
+        {
+            gameState = GameState.gameLost;
+        }
+    }
+
+    public void SetLevelComplete()
+    {
+        gameState = GameState.levelCompleted;
+    }
+
     public void SetCurrentRoom(Room room)
     {
         if (room == null)
@@ -66,11 +138,11 @@ public class GameManager : SingletomMonobehavior<GameManager>
     }
     private void PlayDungeonLevel(int dungeonLevelListIndex)
     {
-        // if (!NetworkServer.active)
-        // {
-        //     Debug.Log("Only the host can trigger dungeon generation.");
-        //     return;
-        // }
+        if (!NetworkServer.active)
+        {
+            Debug.Log("Only the host can trigger dungeon generation.");
+            return;
+        }
 
         bool dungeonBuildSuccessfully = DungeonBuilder.Instance.GenerateDungeon(dungeonLevelList[dungeonLevelListIndex]);
 
@@ -102,13 +174,56 @@ public class GameManager : SingletomMonobehavior<GameManager>
         }
         return player;
     }
+    public List<Player> GetAllPlayers()
+    {
+        List<Player> players = new List<Player>(FindObjectsByType<Player>(FindObjectsSortMode.None));
+        if (players == null)
+        {
+            Debug.LogError("Player reference is null. Ensure the Player object exists in the scene.");
+        }
+        return players;
+    }
 
     public Room GetCurrentRoom()
     {
         return currentRoom;
     }
+    public Room GetPriviousRoom()
+    {
+        return previousRoom;
+    }
     public DungeonLevel GetCurrentDungeonLevel()
     {
         return dungeonLevelList[currentDungeonLevelListIndex];
+    }
+
+    [Command(requiresAuthority = false)]
+    public void OnWinButtonClicked()
+    {
+        HandleGameEnd("Win");
+    }
+
+    [Command(requiresAuthority = false)]
+    public void OnLoseButtonClicked()
+    {
+        HandleGameEnd("Lose");
+    }
+
+
+    [Server]
+    private void HandleGameEnd(string result)
+    {
+        Debug.Log($"Game ended with result: {result}");
+
+        // Only the server (host) should stop the host
+        if (NetworkServer.active)
+        {
+            Debug.Log("Stopping the host...");
+            NetworkManager.singleton.StopHost();
+        }
+        else
+        {
+            Debug.LogWarning("HandleGameEnd called on a client. This should only be called on the server.");
+        }
     }
 }

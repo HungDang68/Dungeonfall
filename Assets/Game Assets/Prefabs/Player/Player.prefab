@@ -109,7 +109,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 4.79, y: 0}
+  m_AnchoredPosition: {x: 4.790001, y: 0}
   m_SizeDelta: {x: 19.58, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7486610598881917305
@@ -253,7 +253,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &6814828145418198082
 RectTransform:
   m_ObjectHideFlags: 0
@@ -268,7 +268,7 @@ RectTransform:
   m_Children:
   - {fileID: 5650033804639838968}
   - {fileID: 5533900883440285696}
-  m_Father: {fileID: 5831717317305632873}
+  m_Father: {fileID: 8604273483258996918}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -310,11 +310,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
+  m_ScreenMatchMode: 1
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
@@ -534,9 +534,10 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.72, y: 0.72, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 6814828145418198082}
   - {fileID: 8121432690589175673}
   m_Father: {fileID: 5831717317305632873}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -711,7 +712,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -234.1, y: 176.1}
+  m_AnchoredPosition: {x: -392, y: 262}
   m_SizeDelta: {x: 160, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &4558611524153009823
@@ -801,7 +802,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -296.2, y: 148.1}
+  m_AnchoredPosition: {x: -456, y: 220}
   m_SizeDelta: {x: 160, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &902919950564267715
@@ -1050,20 +1051,20 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5831717317305632873}
-  - component: {fileID: 7980771653241096050}
+  - component: {fileID: 9142202157206933379}
   - component: {fileID: 232607769489041675}
-  - component: {fileID: 3516981646208851176}
   - component: {fileID: 1427110481408193339}
   - component: {fileID: 2550278611233994292}
   - component: {fileID: 8009237997177088754}
   - component: {fileID: 1111949859586602510}
-  - component: {fileID: -8784183819211899192}
-  - component: {fileID: 2290340027981738039}
   - component: {fileID: 8113217143083168314}
   - component: {fileID: 7961374508442810743}
   - component: {fileID: 1143417166588523614}
   - component: {fileID: 4634439119848161095}
   - component: {fileID: 245948817269841032}
+  - component: {fileID: 6384727816384815015}
+  - component: {fileID: 8422176206178425775}
+  - component: {fileID: 2097541640537698904}
   m_Layer: 10
   m_Name: Player
   m_TagString: Player
@@ -1086,10 +1087,9 @@ Transform:
   m_Children:
   - {fileID: 8604273483258996918}
   - {fileID: 6123757198865936466}
-  - {fileID: 6814828145418198082}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &7980771653241096050
+--- !u!212 &9142202157206933379
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1114,7 +1114,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1141,7 +1141,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.53846157, y: 1.1153846}
+  m_Size: {x: 0.875, y: 1.8125}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -1164,23 +1164,6 @@ MonoBehaviour:
   serverOnly: 0
   visibility: 2
   hasSpawned: 0
---- !u!114 &3516981646208851176
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9001822955372429444}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f6f3bf89aa97405989c802ba270f815, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Mirror.Components::Mirror.NetworkAnimator
-  syncDirection: 1
-  syncMode: 0
-  syncInterval: 0
-  clientAuthority: 1
-  animator: {fileID: -8784183819211899192}
 --- !u!114 &1427110481408193339
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1281,7 +1264,7 @@ BoxCollider2D:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 0.875, y: 1.8125}
-    newSize: {x: 0.53846157, y: 1.1153846}
+    newSize: {x: 0.875, y: 1.8125}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -1318,43 +1301,6 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
---- !u!95 &-8784183819211899192
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9001822955372429444}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 2971dd5ec7b27484ea85b25a780e6151, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
---- !u!114 &2290340027981738039
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9001822955372429444}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3fca4ea7e7d4b9c448ab8820aca0ed82, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerAnimator
-  syncDirection: 0
-  syncMode: 0
-  syncInterval: 0
 --- !u!114 &8113217143083168314
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1370,8 +1316,8 @@ MonoBehaviour:
   syncDirection: 0
   syncMode: 0
   syncInterval: 0
-  canvas: {fileID: 2900769120958381077}
   weaponGO: {fileID: 2469935522927151271}
+  sprite: {fileID: 0}
   playerCamera: {fileID: 3421656561957604119}
 --- !u!114 &7961374508442810743
 MonoBehaviour:
@@ -1388,6 +1334,7 @@ MonoBehaviour:
   syncDirection: 0
   syncMode: 0
   syncInterval: 0
+  health: {fileID: 0}
 --- !u!114 &1143417166588523614
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1448,3 +1395,57 @@ MonoBehaviour:
   healthSlider: {fileID: 4558611524153009823}
   EXPSlider: {fileID: 902919950564267715}
   levelText: {fileID: 7032706075414450969}
+--- !u!95 &6384727816384815015
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9001822955372429444}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2971dd5ec7b27484ea85b25a780e6151, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &8422176206178425775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9001822955372429444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f6f3bf89aa97405989c802ba270f815, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Mirror.Components::Mirror.NetworkAnimator
+  syncDirection: 1
+  syncMode: 0
+  syncInterval: 0
+  clientAuthority: 1
+  animator: {fileID: 6384727816384815015}
+--- !u!114 &2097541640537698904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9001822955372429444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fca4ea7e7d4b9c448ab8820aca0ed82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerAnimator
+  syncDirection: 0
+  syncMode: 0
+  syncInterval: 0

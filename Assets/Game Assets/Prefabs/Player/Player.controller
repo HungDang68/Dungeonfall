@@ -71,7 +71,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: Is Walking Right
+    m_ConditionEvent: Is Walking Down
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 4409902084418574629}
@@ -81,7 +81,7 @@ AnimatorStateTransition:
   serializedVersion: 3
   m_TransitionDuration: 0
   m_TransitionOffset: 0
-  m_ExitTime: 0.05043635
+  m_ExitTime: 0.0000000014277957
   m_HasExitTime: 0
   m_HasFixedDuration: 1
   m_InterruptionSource: 0

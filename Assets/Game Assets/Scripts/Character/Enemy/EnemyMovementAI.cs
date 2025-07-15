@@ -2,9 +2,10 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Mirror;
 [DisallowMultipleComponent]
 [RequireComponent(typeof(Enemy))]
-public class EnemyMovementAI : MonoBehaviour
+public class EnemyMovementAI : NetworkBehaviour
 {
     private Enemy enemy;
     private Stack<Vector3> movementSteps = new Stack<Vector3>();
@@ -27,11 +28,12 @@ public class EnemyMovementAI : MonoBehaviour
         Debug.Log("Enemy speed = " + moveSpeed);
         waitForFixedUpdate = new WaitForFixedUpdate();
 
-        playerReferencePosition = GameManager.Instance.GetPlayer().GetPlayerPosition();
+        playerReferencePosition = GetNearestPLayerPosition();
     }
 
     private void Update()
     {
+        if (!isServer) return;
         MoveEnemy();
     }
 
@@ -39,18 +41,18 @@ public class EnemyMovementAI : MonoBehaviour
     {
         currentEnemyPathRebuildCooldown -= Time.deltaTime;
 
-        if (!chasePlayer && Vector3.Distance(transform.position, GameManager.Instance.GetPlayer().GetPlayerPosition()) < enemy.enemyDetails.chaseDistance)
+        if (!chasePlayer && Vector3.Distance(transform.position, GetNearestPLayerPosition()) < enemy.enemyDetails.chaseDistance)
         {
             chasePlayer = true;
         }
 
         if (!chasePlayer) { return; }
 
-        if (currentEnemyPathRebuildCooldown <= 0f || (Vector3.Distance(playerReferencePosition, GameManager.Instance.GetPlayer().GetPlayerPosition()) > Settings.playerMoveDistanceToRebuildPath))
+        if (currentEnemyPathRebuildCooldown <= 0f || (Vector3.Distance(playerReferencePosition, GetNearestPLayerPosition()) > Settings.playerMoveDistanceToRebuildPath))
         {
             currentEnemyPathRebuildCooldown = Settings.enemyPathRebuildCoolDown;
 
-            playerReferencePosition = GameManager.Instance.GetPlayer().GetPlayerPosition();
+            playerReferencePosition = GetNearestPLayerPosition();
 
             CreatePath();
 
@@ -63,6 +65,24 @@ public class EnemyMovementAI : MonoBehaviour
             }
             moveEnemyRoutine = StartCoroutine(MoveEnemyRoutine(movementSteps));
         }
+    }
+    private Vector3 GetNearestPLayerPosition()
+    {
+        List<Player> players = GameManager.Instance.GetAllPlayers();
+
+        Vector3 nearestPlayerPosition = players[0].GetPlayerPosition();
+
+        float distance = Vector3.Distance(transform.position, nearestPlayerPosition);
+
+        for (int i = 1; i < players.Count; i++)
+        {
+            if (distance > Vector3.Distance(transform.position, players[i].GetPlayerPosition()))
+            {
+                distance = Vector3.Distance(transform.position, players[i].GetPlayerPosition());
+                nearestPlayerPosition = players[i].GetPlayerPosition();
+            }
+        }
+        return nearestPlayerPosition;
     }
 
     private IEnumerator MoveEnemyRoutine(Stack<Vector3> movementSteps)
@@ -107,7 +127,7 @@ public class EnemyMovementAI : MonoBehaviour
 
     private Vector3Int GetNearestNonObstaclePosition(Room currentRoom)
     {
-        Vector3 playerPosition = GameManager.Instance.GetPlayer().GetPlayerPosition();
+        Vector3 playerPosition = GetNearestPLayerPosition();
 
         Vector3Int playerCellPosition = currentRoom.instatiatedRoom.grid.WorldToCell(playerPosition);
 
@@ -141,7 +161,6 @@ public class EnemyMovementAI : MonoBehaviour
 
             return playerCellPosition;
         }
-
-
     }
+
 }

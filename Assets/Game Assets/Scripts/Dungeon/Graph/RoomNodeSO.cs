@@ -10,7 +10,6 @@ public class RoomNodeSO : ScriptableObject
     public List<string> childRoomNodeIDList = new List<string>();
     [HideInInspector] public RoomNodeGraphSO roomNodeGraph;
     public RoomNodeTypeSO roomNodeType;
-    [HideInInspector]
     public RoomNodeTypeListSO roomNodeTypeList;
 
     [HideInInspector] public Rect rect;

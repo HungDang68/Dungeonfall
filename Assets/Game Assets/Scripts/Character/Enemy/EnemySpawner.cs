@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using Mirror;
 
 [DisallowMultipleComponent]
 public class EnemySpawner : SingletomMonobehavior<EnemySpawner>
@@ -107,6 +108,6 @@ public class EnemySpawner : SingletomMonobehavior<EnemySpawner>
 
         enemy.GetComponent<Enemy>().EnemyInit(enemyDetails, enemiesSpawnedSoFar, dungeonLevel);
 
-
+        NetworkServer.Spawn(enemy);
     }
 }

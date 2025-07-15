@@ -1,9 +1,9 @@
 using System;
 using UnityEngine;
 using UnityEngine.Tilemaps;
-
+using Mirror;
 [RequireComponent(typeof(BoxCollider2D))]
-public class InstantiatedRoom : MonoBehaviour
+public class InstantiatedRoom : NetworkBehaviour
 {
     [HideInInspector] public Room room;
     [HideInInspector] public Grid grid;
@@ -114,8 +114,17 @@ public class InstantiatedRoom : MonoBehaviour
             case Orientation.none:
                 break;
         }
+        RpcSyncTilemapChanges(tileMap.gameObject.name, doorway);
     }
+    [ClientRpc]
+    private void RpcSyncTilemapChanges(string tilemapName, Doorway doorway)
+    {
+        Tilemap tileMap = GameObject.Find(tilemapName)?.GetComponent<Tilemap>();
+        if (tileMap == null) return;
 
+        // Reapply the blocking logic on the client
+        BlockADoorwayOnTilemapLayer(tileMap, doorway);
+    }
     private void BlockDoorwayVertically(Tilemap tileMap, Doorway doorway)
     {
         Vector2Int startPosition = doorway.doorwayStartCopyPosition;
@@ -154,11 +163,29 @@ public class InstantiatedRoom : MonoBehaviour
         }
     }
 
+
+    [Server]
     private void DisableCollisionTilemapRenderer()
     {
-        collisionTileMap.gameObject.GetComponent<TilemapRenderer>().enabled = false;
+        TilemapRenderer renderer = collisionTileMap.gameObject.GetComponent<TilemapRenderer>();
+        if (renderer != null)
+        {
+            renderer.enabled = false;
+        }
+        // Call the ClientRpc to disable it on all clients
+        RpcDisableCollisionTilemapRenderer();
     }
 
+    [ClientRpc]
+    private void RpcDisableCollisionTilemapRenderer()
+    {
+        // Disable the TilemapRenderer on the client
+        TilemapRenderer renderer = collisionTileMap.gameObject.GetComponent<TilemapRenderer>();
+        if (renderer != null)
+        {
+            renderer.enabled = false;
+        }
+    }
     private void PopulateTilemapMemberVariables(GameObject roomGameObject)
     {
         grid = roomGameObject.GetComponentInChildren<Grid>();

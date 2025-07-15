@@ -51,7 +51,7 @@ public class SteamLobby : NetworkBehaviour
     public void HostSinglePlayer()
     {
         networkManager.StartHost();
-
+        CustomNetworkManager.singleton.maxConnections = 0;
         CustomNetworkManager.singleton.ServerChangeScene("Dungeon");
     }
     public void HostLobby()

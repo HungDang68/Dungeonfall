@@ -148,7 +148,6 @@ public class DungeonBuilder : SingletomMonobehavior<DungeonBuilder>
 
                 noRoomOverLaps = CanPlaceRoomWithNoOverLaps(roomNode, parentRoom);
             }
-
         }
         return noRoomOverLaps;
     }

@@ -113,7 +113,7 @@ public class Stats
         if (Random.Range(0, 100) < critRate)
         {
             damage = Mathf.RoundToInt(damage * ((critDamage + 100) / 100f));
-            Debug.Log("Critical hit!");
+            // Debug.Log("Critical hit!");
         }
 
 

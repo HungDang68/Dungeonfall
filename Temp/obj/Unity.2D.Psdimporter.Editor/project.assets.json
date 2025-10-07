@@ -1,0 +1,610 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETStandard,Version=v2.1": {
+      "PsdPlugin/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Unity.Burst": "1.0.0",
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PsdPlugin.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PsdPlugin.dll": {}
+        }
+      },
+      "Unity.2D.Animation.Editor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Unity.2D.Animation.Runtime": "1.0.0",
+          "Unity.2D.Common.Editor": "1.0.0",
+          "Unity.2D.Common.Runtime": "1.0.0",
+          "Unity.2D.Sprite.Editor": "1.0.0",
+          "Unity.Burst": "1.0.0",
+          "Unity.Collections": "1.0.0",
+          "Unity.InternalAPIEditorBridge.001": "1.0.0",
+          "Unity.InternalAPIEngineBridge.001": "1.0.0",
+          "Unity.Mathematics": "1.0.0",
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Unity.2D.Animation.Editor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.2D.Animation.Editor.dll": {}
+        }
+      },
+      "Unity.2D.Animation.Runtime/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Unity.2D.Common.Runtime": "1.0.0",
+          "Unity.Burst": "1.0.0",
+          "Unity.Collections": "1.0.0",
+          "Unity.InternalAPIEngineBridge.001": "1.0.0",
+          "Unity.Mathematics": "1.0.0",
+          "Unity.RenderPipelines.Universal.Runtime": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Unity.2D.Animation.Runtime.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.2D.Animation.Runtime.dll": {}
+        }
+      },
+      "Unity.2D.Common.Editor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Unity.2D.Common.Runtime": "1.0.0",
+          "Unity.2D.Sprite.Editor": "1.0.0",
+          "Unity.Burst": "1.0.0",
+          "Unity.Mathematics": "1.0.0",
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Unity.2D.Common.Editor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.2D.Common.Editor.dll": {}
+        }
+      },
+      "Unity.2D.Common.Runtime/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Unity.Mathematics": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Unity.2D.Common.Runtime.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.2D.Common.Runtime.dll": {}
+        }
+      },
+      "Unity.2D.Sprite.Editor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Unity.2D.Sprite.Editor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.2D.Sprite.Editor.dll": {}
+        }
+      },
+      "Unity.2D.Tilemap.Editor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Unity.2D.Tilemap.Editor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.2D.Tilemap.Editor.dll": {}
+        }
+      },
+      "Unity.Burst/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Unity.Burst.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.Burst.dll": {}
+        }
+      },
+      "Unity.Collections/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Unity.Burst": "1.0.0",
+          "Unity.Mathematics": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Unity.Collections.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.Collections.dll": {}
+        }
+      },
+      "Unity.InputSystem/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Unity.InputSystem.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.InputSystem.dll": {}
+        }
+      },
+      "Unity.InternalAPIEditorBridge.001/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Unity.2D.Sprite.Editor": "1.0.0",
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Unity.InternalAPIEditorBridge.001.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.InternalAPIEditorBridge.001.dll": {}
+        }
+      },
+      "Unity.InternalAPIEngineBridge.001/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Unity.InternalAPIEngineBridge.001.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.InternalAPIEngineBridge.001.dll": {}
+        }
+      },
+      "Unity.Mathematics/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Unity.Mathematics.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.Mathematics.dll": {}
+        }
+      },
+      "Unity.RenderPipeline.Universal.ShaderLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Unity.RenderPipelines.Core.Runtime": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Unity.RenderPipeline.Universal.ShaderLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.RenderPipeline.Universal.ShaderLibrary.dll": {}
+        }
+      },
+      "Unity.RenderPipelines.Core.Runtime/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Unity.Burst": "1.0.0",
+          "Unity.Collections": "1.0.0",
+          "Unity.InputSystem": "1.0.0",
+          "Unity.Mathematics": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Unity.RenderPipelines.Core.Runtime.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.RenderPipelines.Core.Runtime.dll": {}
+        }
+      },
+      "Unity.RenderPipelines.Core.Runtime.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Unity.RenderPipelines.Core.Runtime": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Unity.RenderPipelines.Core.Runtime.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.RenderPipelines.Core.Runtime.Shared.dll": {}
+        }
+      },
+      "Unity.RenderPipelines.GPUDriven.Runtime/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Unity.Burst": "1.0.0",
+          "Unity.Collections": "1.0.0",
+          "Unity.Mathematics": "1.0.0",
+          "Unity.RenderPipelines.Core.Runtime": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Unity.RenderPipelines.GPUDriven.Runtime.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.RenderPipelines.GPUDriven.Runtime.dll": {}
+        }
+      },
+      "Unity.RenderPipelines.Universal.Config.Runtime/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Unity.RenderPipelines.Core.Runtime": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Unity.RenderPipelines.Universal.Config.Runtime.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.RenderPipelines.Universal.Config.Runtime.dll": {}
+        }
+      },
+      "Unity.RenderPipelines.Universal.Runtime/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Unity.Burst": "1.0.0",
+          "Unity.Mathematics": "1.0.0",
+          "Unity.RenderPipeline.Universal.ShaderLibrary": "1.0.0",
+          "Unity.RenderPipelines.Core.Runtime": "1.0.0",
+          "Unity.RenderPipelines.Core.Runtime.Shared": "1.0.0",
+          "Unity.RenderPipelines.GPUDriven.Runtime": "1.0.0",
+          "Unity.RenderPipelines.Universal.Config.Runtime": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Unity.RenderPipelines.Universal.Runtime.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.RenderPipelines.Universal.Runtime.dll": {}
+        }
+      },
+      "UnityEditor.TestRunner/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "UnityEngine.TestRunner": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UnityEditor.TestRunner.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UnityEditor.TestRunner.dll": {}
+        }
+      },
+      "UnityEditor.UI/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UnityEditor.UI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UnityEditor.UI.dll": {}
+        }
+      },
+      "UnityEngine.TestRunner/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/UnityEngine.TestRunner.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UnityEngine.TestRunner.dll": {}
+        }
+      },
+      "UnityEngine.UI/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/UnityEngine.UI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UnityEngine.UI.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PsdPlugin/1.0.0": {
+      "type": "project",
+      "path": "PsdPlugin.csproj",
+      "msbuildProject": "PsdPlugin.csproj"
+    },
+    "Unity.2D.Animation.Editor/1.0.0": {
+      "type": "project",
+      "path": "Unity.2D.Animation.Editor.csproj",
+      "msbuildProject": "Unity.2D.Animation.Editor.csproj"
+    },
+    "Unity.2D.Animation.Runtime/1.0.0": {
+      "type": "project",
+      "path": "Unity.2D.Animation.Runtime.csproj",
+      "msbuildProject": "Unity.2D.Animation.Runtime.csproj"
+    },
+    "Unity.2D.Common.Editor/1.0.0": {
+      "type": "project",
+      "path": "Unity.2D.Common.Editor.csproj",
+      "msbuildProject": "Unity.2D.Common.Editor.csproj"
+    },
+    "Unity.2D.Common.Runtime/1.0.0": {
+      "type": "project",
+      "path": "Unity.2D.Common.Runtime.csproj",
+      "msbuildProject": "Unity.2D.Common.Runtime.csproj"
+    },
+    "Unity.2D.Sprite.Editor/1.0.0": {
+      "type": "project",
+      "path": "Unity.2D.Sprite.Editor.csproj",
+      "msbuildProject": "Unity.2D.Sprite.Editor.csproj"
+    },
+    "Unity.2D.Tilemap.Editor/1.0.0": {
+      "type": "project",
+      "path": "Unity.2D.Tilemap.Editor.csproj",
+      "msbuildProject": "Unity.2D.Tilemap.Editor.csproj"
+    },
+    "Unity.Burst/1.0.0": {
+      "type": "project",
+      "path": "Unity.Burst.csproj",
+      "msbuildProject": "Unity.Burst.csproj"
+    },
+    "Unity.Collections/1.0.0": {
+      "type": "project",
+      "path": "Unity.Collections.csproj",
+      "msbuildProject": "Unity.Collections.csproj"
+    },
+    "Unity.InputSystem/1.0.0": {
+      "type": "project",
+      "path": "Unity.InputSystem.csproj",
+      "msbuildProject": "Unity.InputSystem.csproj"
+    },
+    "Unity.InternalAPIEditorBridge.001/1.0.0": {
+      "type": "project",
+      "path": "Unity.InternalAPIEditorBridge.001.csproj",
+      "msbuildProject": "Unity.InternalAPIEditorBridge.001.csproj"
+    },
+    "Unity.InternalAPIEngineBridge.001/1.0.0": {
+      "type": "project",
+      "path": "Unity.InternalAPIEngineBridge.001.csproj",
+      "msbuildProject": "Unity.InternalAPIEngineBridge.001.csproj"
+    },
+    "Unity.Mathematics/1.0.0": {
+      "type": "project",
+      "path": "Unity.Mathematics.csproj",
+      "msbuildProject": "Unity.Mathematics.csproj"
+    },
+    "Unity.RenderPipeline.Universal.ShaderLibrary/1.0.0": {
+      "type": "project",
+      "path": "Unity.RenderPipeline.Universal.ShaderLibrary.csproj",
+      "msbuildProject": "Unity.RenderPipeline.Universal.ShaderLibrary.csproj"
+    },
+    "Unity.RenderPipelines.Core.Runtime/1.0.0": {
+      "type": "project",
+      "path": "Unity.RenderPipelines.Core.Runtime.csproj",
+      "msbuildProject": "Unity.RenderPipelines.Core.Runtime.csproj"
+    },
+    "Unity.RenderPipelines.Core.Runtime.Shared/1.0.0": {
+      "type": "project",
+      "path": "Unity.RenderPipelines.Core.Runtime.Shared.csproj",
+      "msbuildProject": "Unity.RenderPipelines.Core.Runtime.Shared.csproj"
+    },
+    "Unity.RenderPipelines.GPUDriven.Runtime/1.0.0": {
+      "type": "project",
+      "path": "Unity.RenderPipelines.GPUDriven.Runtime.csproj",
+      "msbuildProject": "Unity.RenderPipelines.GPUDriven.Runtime.csproj"
+    },
+    "Unity.RenderPipelines.Universal.Config.Runtime/1.0.0": {
+      "type": "project",
+      "path": "Unity.RenderPipelines.Universal.Config.Runtime.csproj",
+      "msbuildProject": "Unity.RenderPipelines.Universal.Config.Runtime.csproj"
+    },
+    "Unity.RenderPipelines.Universal.Runtime/1.0.0": {
+      "type": "project",
+      "path": "Unity.RenderPipelines.Universal.Runtime.csproj",
+      "msbuildProject": "Unity.RenderPipelines.Universal.Runtime.csproj"
+    },
+    "UnityEditor.TestRunner/1.0.0": {
+      "type": "project",
+      "path": "UnityEditor.TestRunner.csproj",
+      "msbuildProject": "UnityEditor.TestRunner.csproj"
+    },
+    "UnityEditor.UI/1.0.0": {
+      "type": "project",
+      "path": "UnityEditor.UI.csproj",
+      "msbuildProject": "UnityEditor.UI.csproj"
+    },
+    "UnityEngine.TestRunner/1.0.0": {
+      "type": "project",
+      "path": "UnityEngine.TestRunner.csproj",
+      "msbuildProject": "UnityEngine.TestRunner.csproj"
+    },
+    "UnityEngine.UI/1.0.0": {
+      "type": "project",
+      "path": "UnityEngine.UI.csproj",
+      "msbuildProject": "UnityEngine.UI.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETStandard,Version=v2.1": [
+      "PsdPlugin >= 1.0.0",
+      "Unity.2D.Animation.Editor >= 1.0.0",
+      "Unity.2D.Animation.Runtime >= 1.0.0",
+      "Unity.2D.Common.Editor >= 1.0.0",
+      "Unity.2D.Sprite.Editor >= 1.0.0",
+      "Unity.2D.Tilemap.Editor >= 1.0.0",
+      "Unity.Burst >= 1.0.0",
+      "Unity.InternalAPIEditorBridge.001 >= 1.0.0",
+      "Unity.InternalAPIEngineBridge.001 >= 1.0.0",
+      "Unity.Mathematics >= 1.0.0",
+      "UnityEditor.TestRunner >= 1.0.0",
+      "UnityEditor.UI >= 1.0.0",
+      "UnityEngine.TestRunner >= 1.0.0",
+      "UnityEngine.UI >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\admin\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\App\\Unity project\\Test Stuff\\Unity.2D.Psdimporter.Editor.csproj",
+      "projectName": "Unity.2D.Psdimporter.Editor",
+      "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.2D.Psdimporter.Editor.csproj",
+      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+      "outputPath": "D:\\App\\Unity project\\Test Stuff\\Temp\\obj\\Unity.2D.Psdimporter.Editor\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netstandard2.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "projectReferences": {
+            "D:\\App\\Unity project\\Test Stuff\\PsdPlugin.csproj": {
+              "projectPath": "D:\\App\\Unity project\\Test Stuff\\PsdPlugin.csproj"
+            },
+            "D:\\App\\Unity project\\Test Stuff\\Unity.2D.Animation.Editor.csproj": {
+              "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.2D.Animation.Editor.csproj"
+            },
+            "D:\\App\\Unity project\\Test Stuff\\Unity.2D.Animation.Runtime.csproj": {
+              "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.2D.Animation.Runtime.csproj"
+            },
+            "D:\\App\\Unity project\\Test Stuff\\Unity.2D.Common.Editor.csproj": {
+              "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.2D.Common.Editor.csproj"
+            },
+            "D:\\App\\Unity project\\Test Stuff\\Unity.2D.Sprite.Editor.csproj": {
+              "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.2D.Sprite.Editor.csproj"
+            },
+            "D:\\App\\Unity project\\Test Stuff\\Unity.2D.Tilemap.Editor.csproj": {
+              "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.2D.Tilemap.Editor.csproj"
+            },
+            "D:\\App\\Unity project\\Test Stuff\\Unity.Burst.csproj": {
+              "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.Burst.csproj"
+            },
+            "D:\\App\\Unity project\\Test Stuff\\Unity.InternalAPIEditorBridge.001.csproj": {
+              "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.InternalAPIEditorBridge.001.csproj"
+            },
+            "D:\\App\\Unity project\\Test Stuff\\Unity.InternalAPIEngineBridge.001.csproj": {
+              "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.InternalAPIEngineBridge.001.csproj"
+            },
+            "D:\\App\\Unity project\\Test Stuff\\Unity.Mathematics.csproj": {
+              "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.Mathematics.csproj"
+            },
+            "D:\\App\\Unity project\\Test Stuff\\UnityEditor.TestRunner.csproj": {
+              "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEditor.TestRunner.csproj"
+            },
+            "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj": {
+              "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj"
+            },
+            "D:\\App\\Unity project\\Test Stuff\\UnityEngine.TestRunner.csproj": {
+              "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEngine.TestRunner.csproj"
+            },
+            "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj": {
+              "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.100"
+    },
+    "frameworks": {
+      "netstandard2.1": {
+        "targetAlias": "netstandard2.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

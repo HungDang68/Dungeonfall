@@ -1,0 +1,1638 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\App\\Unity project\\Test Stuff\\Unity.2D.Aseprite.Editor.csproj": {}
+  },
+  "projects": {
+    "D:\\App\\Unity project\\Test Stuff\\Unity.2D.Animation.Runtime.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\App\\Unity project\\Test Stuff\\Unity.2D.Animation.Runtime.csproj",
+        "projectName": "Unity.2D.Animation.Runtime",
+        "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.2D.Animation.Runtime.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\App\\Unity project\\Test Stuff\\Temp\\obj\\Unity.2D.Animation.Runtime\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\App\\Unity project\\Test Stuff\\Unity.2D.Common.Runtime.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.2D.Common.Runtime.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\Unity.Burst.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.Burst.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\Unity.Collections.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.Collections.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\Unity.InternalAPIEngineBridge.001.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.InternalAPIEngineBridge.001.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\Unity.Mathematics.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.Mathematics.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\Unity.RenderPipelines.Universal.Runtime.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.RenderPipelines.Universal.Runtime.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\App\\Unity project\\Test Stuff\\Unity.2D.Aseprite.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\App\\Unity project\\Test Stuff\\Unity.2D.Aseprite.Common.csproj",
+        "projectName": "Unity.2D.Aseprite.Common",
+        "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.2D.Aseprite.Common.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\App\\Unity project\\Test Stuff\\Temp\\obj\\Unity.2D.Aseprite.Common\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\App\\Unity project\\Test Stuff\\Unity.2D.Sprite.Editor.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.2D.Sprite.Editor.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\Unity.Burst.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.Burst.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\Unity.Mathematics.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.Mathematics.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEditor.TestRunner.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEditor.TestRunner.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEngine.TestRunner.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEngine.TestRunner.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\App\\Unity project\\Test Stuff\\Unity.2D.Aseprite.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\App\\Unity project\\Test Stuff\\Unity.2D.Aseprite.Editor.csproj",
+        "projectName": "Unity.2D.Aseprite.Editor",
+        "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.2D.Aseprite.Editor.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\App\\Unity project\\Test Stuff\\Temp\\obj\\Unity.2D.Aseprite.Editor\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\App\\Unity project\\Test Stuff\\Unity.2D.Aseprite.Common.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.2D.Aseprite.Common.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\Unity.2D.Sprite.Editor.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.2D.Sprite.Editor.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\Unity.2D.Tilemap.Editor.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.2D.Tilemap.Editor.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\Unity.Burst.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.Burst.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\Unity.InternalAPIEditorBridge.001.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.InternalAPIEditorBridge.001.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\Unity.Mathematics.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.Mathematics.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\Unity.RenderPipelines.Universal.2D.Runtime.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.RenderPipelines.Universal.2D.Runtime.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\Unity.RenderPipelines.Universal.Runtime.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.RenderPipelines.Universal.Runtime.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEditor.TestRunner.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEditor.TestRunner.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEngine.TestRunner.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEngine.TestRunner.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\App\\Unity project\\Test Stuff\\Unity.2D.Common.Runtime.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\App\\Unity project\\Test Stuff\\Unity.2D.Common.Runtime.csproj",
+        "projectName": "Unity.2D.Common.Runtime",
+        "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.2D.Common.Runtime.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\App\\Unity project\\Test Stuff\\Temp\\obj\\Unity.2D.Common.Runtime\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\App\\Unity project\\Test Stuff\\Unity.Mathematics.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.Mathematics.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\App\\Unity project\\Test Stuff\\Unity.2D.Sprite.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\App\\Unity project\\Test Stuff\\Unity.2D.Sprite.Editor.csproj",
+        "projectName": "Unity.2D.Sprite.Editor",
+        "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.2D.Sprite.Editor.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\App\\Unity project\\Test Stuff\\Temp\\obj\\Unity.2D.Sprite.Editor\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\App\\Unity project\\Test Stuff\\UnityEditor.TestRunner.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEditor.TestRunner.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEngine.TestRunner.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEngine.TestRunner.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\App\\Unity project\\Test Stuff\\Unity.2D.SpriteShape.Runtime.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\App\\Unity project\\Test Stuff\\Unity.2D.SpriteShape.Runtime.csproj",
+        "projectName": "Unity.2D.SpriteShape.Runtime",
+        "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.2D.SpriteShape.Runtime.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\App\\Unity project\\Test Stuff\\Temp\\obj\\Unity.2D.SpriteShape.Runtime\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\App\\Unity project\\Test Stuff\\Unity.2D.Common.Runtime.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.2D.Common.Runtime.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\Unity.Burst.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.Burst.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\Unity.InternalAPIEngineBridge.001.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.InternalAPIEngineBridge.001.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\Unity.Mathematics.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.Mathematics.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\App\\Unity project\\Test Stuff\\Unity.2D.Tilemap.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\App\\Unity project\\Test Stuff\\Unity.2D.Tilemap.Editor.csproj",
+        "projectName": "Unity.2D.Tilemap.Editor",
+        "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.2D.Tilemap.Editor.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\App\\Unity project\\Test Stuff\\Temp\\obj\\Unity.2D.Tilemap.Editor\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\App\\Unity project\\Test Stuff\\UnityEditor.TestRunner.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEditor.TestRunner.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEngine.TestRunner.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEngine.TestRunner.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\App\\Unity project\\Test Stuff\\Unity.Burst.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\App\\Unity project\\Test Stuff\\Unity.Burst.csproj",
+        "projectName": "Unity.Burst",
+        "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.Burst.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\App\\Unity project\\Test Stuff\\Temp\\obj\\Unity.Burst\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\App\\Unity project\\Test Stuff\\Unity.Collections.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\App\\Unity project\\Test Stuff\\Unity.Collections.csproj",
+        "projectName": "Unity.Collections",
+        "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.Collections.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\App\\Unity project\\Test Stuff\\Temp\\obj\\Unity.Collections\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\App\\Unity project\\Test Stuff\\Unity.Burst.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.Burst.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\Unity.Mathematics.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.Mathematics.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\App\\Unity project\\Test Stuff\\Unity.InputSystem.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\App\\Unity project\\Test Stuff\\Unity.InputSystem.csproj",
+        "projectName": "Unity.InputSystem",
+        "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.InputSystem.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\App\\Unity project\\Test Stuff\\Temp\\obj\\Unity.InputSystem\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\App\\Unity project\\Test Stuff\\Unity.InternalAPIEditorBridge.001.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\App\\Unity project\\Test Stuff\\Unity.InternalAPIEditorBridge.001.csproj",
+        "projectName": "Unity.InternalAPIEditorBridge.001",
+        "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.InternalAPIEditorBridge.001.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\App\\Unity project\\Test Stuff\\Temp\\obj\\Unity.InternalAPIEditorBridge.001\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\App\\Unity project\\Test Stuff\\Unity.2D.Sprite.Editor.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.2D.Sprite.Editor.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEditor.TestRunner.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEditor.TestRunner.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEngine.TestRunner.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEngine.TestRunner.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\App\\Unity project\\Test Stuff\\Unity.InternalAPIEngineBridge.001.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\App\\Unity project\\Test Stuff\\Unity.InternalAPIEngineBridge.001.csproj",
+        "projectName": "Unity.InternalAPIEngineBridge.001",
+        "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.InternalAPIEngineBridge.001.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\App\\Unity project\\Test Stuff\\Temp\\obj\\Unity.InternalAPIEngineBridge.001\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\App\\Unity project\\Test Stuff\\Unity.Mathematics.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\App\\Unity project\\Test Stuff\\Unity.Mathematics.csproj",
+        "projectName": "Unity.Mathematics",
+        "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.Mathematics.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\App\\Unity project\\Test Stuff\\Temp\\obj\\Unity.Mathematics\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\App\\Unity project\\Test Stuff\\Unity.RenderPipeline.Universal.ShaderLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\App\\Unity project\\Test Stuff\\Unity.RenderPipeline.Universal.ShaderLibrary.csproj",
+        "projectName": "Unity.RenderPipeline.Universal.ShaderLibrary",
+        "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.RenderPipeline.Universal.ShaderLibrary.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\App\\Unity project\\Test Stuff\\Temp\\obj\\Unity.RenderPipeline.Universal.ShaderLibrary\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\App\\Unity project\\Test Stuff\\Unity.RenderPipelines.Core.Runtime.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.RenderPipelines.Core.Runtime.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\App\\Unity project\\Test Stuff\\Unity.RenderPipelines.Core.Runtime.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\App\\Unity project\\Test Stuff\\Unity.RenderPipelines.Core.Runtime.csproj",
+        "projectName": "Unity.RenderPipelines.Core.Runtime",
+        "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.RenderPipelines.Core.Runtime.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\App\\Unity project\\Test Stuff\\Temp\\obj\\Unity.RenderPipelines.Core.Runtime\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\App\\Unity project\\Test Stuff\\Unity.Burst.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.Burst.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\Unity.Collections.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.Collections.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\Unity.InputSystem.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.InputSystem.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\Unity.Mathematics.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.Mathematics.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\App\\Unity project\\Test Stuff\\Unity.RenderPipelines.Core.Runtime.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\App\\Unity project\\Test Stuff\\Unity.RenderPipelines.Core.Runtime.Shared.csproj",
+        "projectName": "Unity.RenderPipelines.Core.Runtime.Shared",
+        "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.RenderPipelines.Core.Runtime.Shared.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\App\\Unity project\\Test Stuff\\Temp\\obj\\Unity.RenderPipelines.Core.Runtime.Shared\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\App\\Unity project\\Test Stuff\\Unity.RenderPipelines.Core.Runtime.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.RenderPipelines.Core.Runtime.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\App\\Unity project\\Test Stuff\\Unity.RenderPipelines.GPUDriven.Runtime.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\App\\Unity project\\Test Stuff\\Unity.RenderPipelines.GPUDriven.Runtime.csproj",
+        "projectName": "Unity.RenderPipelines.GPUDriven.Runtime",
+        "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.RenderPipelines.GPUDriven.Runtime.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\App\\Unity project\\Test Stuff\\Temp\\obj\\Unity.RenderPipelines.GPUDriven.Runtime\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\App\\Unity project\\Test Stuff\\Unity.Burst.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.Burst.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\Unity.Collections.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.Collections.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\Unity.Mathematics.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.Mathematics.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\Unity.RenderPipelines.Core.Runtime.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.RenderPipelines.Core.Runtime.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\App\\Unity project\\Test Stuff\\Unity.RenderPipelines.Universal.2D.Runtime.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\App\\Unity project\\Test Stuff\\Unity.RenderPipelines.Universal.2D.Runtime.csproj",
+        "projectName": "Unity.RenderPipelines.Universal.2D.Runtime",
+        "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.RenderPipelines.Universal.2D.Runtime.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\App\\Unity project\\Test Stuff\\Temp\\obj\\Unity.RenderPipelines.Universal.2D.Runtime\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\App\\Unity project\\Test Stuff\\Unity.2D.Animation.Runtime.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.2D.Animation.Runtime.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\Unity.2D.SpriteShape.Runtime.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.2D.SpriteShape.Runtime.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\Unity.Burst.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.Burst.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\Unity.Mathematics.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.Mathematics.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\Unity.RenderPipeline.Universal.ShaderLibrary.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.RenderPipeline.Universal.ShaderLibrary.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\Unity.RenderPipelines.Core.Runtime.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.RenderPipelines.Core.Runtime.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\Unity.RenderPipelines.Universal.Runtime.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.RenderPipelines.Universal.Runtime.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\App\\Unity project\\Test Stuff\\Unity.RenderPipelines.Universal.Config.Runtime.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\App\\Unity project\\Test Stuff\\Unity.RenderPipelines.Universal.Config.Runtime.csproj",
+        "projectName": "Unity.RenderPipelines.Universal.Config.Runtime",
+        "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.RenderPipelines.Universal.Config.Runtime.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\App\\Unity project\\Test Stuff\\Temp\\obj\\Unity.RenderPipelines.Universal.Config.Runtime\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\App\\Unity project\\Test Stuff\\Unity.RenderPipelines.Core.Runtime.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.RenderPipelines.Core.Runtime.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\App\\Unity project\\Test Stuff\\Unity.RenderPipelines.Universal.Runtime.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\App\\Unity project\\Test Stuff\\Unity.RenderPipelines.Universal.Runtime.csproj",
+        "projectName": "Unity.RenderPipelines.Universal.Runtime",
+        "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.RenderPipelines.Universal.Runtime.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\App\\Unity project\\Test Stuff\\Temp\\obj\\Unity.RenderPipelines.Universal.Runtime\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\App\\Unity project\\Test Stuff\\Unity.Burst.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.Burst.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\Unity.Mathematics.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.Mathematics.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\Unity.RenderPipeline.Universal.ShaderLibrary.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.RenderPipeline.Universal.ShaderLibrary.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\Unity.RenderPipelines.Core.Runtime.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.RenderPipelines.Core.Runtime.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\Unity.RenderPipelines.Core.Runtime.Shared.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.RenderPipelines.Core.Runtime.Shared.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\Unity.RenderPipelines.GPUDriven.Runtime.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.RenderPipelines.GPUDriven.Runtime.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\Unity.RenderPipelines.Universal.Config.Runtime.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.RenderPipelines.Universal.Config.Runtime.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\App\\Unity project\\Test Stuff\\UnityEditor.TestRunner.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\App\\Unity project\\Test Stuff\\UnityEditor.TestRunner.csproj",
+        "projectName": "UnityEditor.TestRunner",
+        "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEditor.TestRunner.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\App\\Unity project\\Test Stuff\\Temp\\obj\\UnityEditor.TestRunner\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\App\\Unity project\\Test Stuff\\UnityEngine.TestRunner.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEngine.TestRunner.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj",
+        "projectName": "UnityEditor.UI",
+        "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\App\\Unity project\\Test Stuff\\Temp\\obj\\UnityEditor.UI\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\App\\Unity project\\Test Stuff\\UnityEditor.TestRunner.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEditor.TestRunner.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEngine.TestRunner.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEngine.TestRunner.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\App\\Unity project\\Test Stuff\\UnityEngine.TestRunner.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\App\\Unity project\\Test Stuff\\UnityEngine.TestRunner.csproj",
+        "projectName": "UnityEngine.TestRunner",
+        "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEngine.TestRunner.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\App\\Unity project\\Test Stuff\\Temp\\obj\\UnityEngine.TestRunner\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj",
+        "projectName": "UnityEngine.UI",
+        "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\App\\Unity project\\Test Stuff\\Temp\\obj\\UnityEngine.UI\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

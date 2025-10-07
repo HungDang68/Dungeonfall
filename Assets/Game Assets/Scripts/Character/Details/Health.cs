@@ -14,7 +14,7 @@ public class Health : NetworkBehaviour, IHitable
 
     public void SetHealth(int health)
     {
-        Debug.Log($"Setting health to {health}");
+        // Debug.Log($"Setting health to {health}");
         currentHealth = health;
     }
 
@@ -61,7 +61,7 @@ public class Health : NetworkBehaviour, IHitable
             currentHealth -= (int)(damage * (1 - stats.CalculateDamageReduction()));
         }
 
-        Debug.Log("Current Health: " + currentHealth);
+        // Debug.Log("Current Health: " + currentHealth);
 
         if (currentHealth <= 0)
         {
@@ -80,7 +80,7 @@ public class Health : NetworkBehaviour, IHitable
 
     private void OnHealthChanged(int oldHealth, int newHealth)
     {
-        Debug.Log($"Health changed from {oldHealth} to {newHealth}");
+        // Debug.Log($"Health changed from {oldHealth} to {newHealth}");
         if (newHealth <= 0)
         {
             OnDeath?.Invoke();

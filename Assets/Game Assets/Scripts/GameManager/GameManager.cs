@@ -7,10 +7,12 @@ using UnityEngine.SceneManagement;
 [DisallowMultipleComponent]
 public class GameManager : SingletomMonobehavior<GameManager>
 {
+    [SerializeField] private PanelSwapper panelSwapper;
     [SerializeField] private List<DungeonLevel> dungeonLevelList;
 
     [SerializeField] private int currentDungeonLevelListIndex = 0;
     [HideInInspector] public GameState gameState;
+    public GameObject SwapUI;
     private Player player;
     private Room currentRoom;
     private Room previousRoom;
@@ -30,11 +32,18 @@ public class GameManager : SingletomMonobehavior<GameManager>
         }
         if (Input.GetKeyDown(KeyCode.T))
         {
+            Debug.Log("gameLost");
             gameState = GameState.gameLost;
         }
         if (Input.GetKeyDown(KeyCode.Y))
         {
+            Debug.Log("gameWon");
             gameState = GameState.gameWon;
+        }
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Debug.Log("gamePaused");
+            gameState = GameState.gamePaused;
         }
     }
     void OnEnable()
@@ -70,16 +79,81 @@ public class GameManager : SingletomMonobehavior<GameManager>
                 GameLostDealer();
 
                 break;
+            case GameState.gamePaused:
+                Pause();
+
+                break;
         }
     }
 
+    [Command(requiresAuthority = false)]
+    public void Pause()
+    {
+        PauseRPC();
+    }
+
+    [Server]
+    private void PauseRPC()
+    {
+        panelSwapper.SwapPanel("Pause");
+        Time.timeScale = 0f;
+    }
+
+    [Command(requiresAuthority = false)]
+    public void Resume()
+    {
+        ResumeRPC();
+    }
+
+
+    private void ResumeRPC()
+    {
+        gameState = GameState.playingLevel;
+        Time.timeScale = 1f;
+        panelSwapper.SwapPanel("");
+    }
+    public void Quit()
+    {
+        Time.timeScale = 1f;
+        if (NetworkServer.active)
+        {
+            // Host is leaving - stop host and disconnect all clients
+            Debug.Log("Host is leaving the room - stopping host");
+            NetworkManager.singleton.StopHost();
+        }
+        else if (NetworkClient.isConnected)
+        {
+            // Client is leaving - stop client
+            Debug.Log("Client is leaving the room - stopping client");
+            NetworkManager.singleton.StopClient();
+        }
+        else
+        {
+            Debug.Log("Not connected to any room");
+        }
+    }
+    [Command(requiresAuthority = false)]
     private void GameWonDealer()
     {
-        PanelSwapper.Instance.SwapPanel("WinPanel");
+        GameWonDealerRPC();
     }
+
+    [Server]
+    private void GameWonDealerRPC()
+    {
+        panelSwapper.SwapPanel("WinPanel");
+    }
+
+    [Command(requiresAuthority = false)]
     private void GameLostDealer()
     {
-        PanelSwapper.Instance.SwapPanel("LosePanel");
+        GameLostDealerRPC();
+    }
+
+    [Server]
+    private void GameLostDealerRPC()
+    {
+        panelSwapper.SwapPanel("LosePanel");
     }
 
     private void LevelCompleteDealer()

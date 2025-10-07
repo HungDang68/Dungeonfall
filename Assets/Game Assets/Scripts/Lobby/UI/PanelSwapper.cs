@@ -1,7 +1,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Mirror;
-public class PanelSwapper : SingletomMonobehavior<PanelSwapper>
+using UnityEngine.SceneManagement;
+public class PanelSwapper : NetworkBehaviour
 {
     public List<Panel> panels = new List<Panel>();
 
@@ -11,7 +12,7 @@ public class PanelSwapper : SingletomMonobehavior<PanelSwapper>
         SwapPanelRPC(panelName);
     }
 
-    [ClientRpc]
+
     private void SwapPanelRPC(string panelName)
     {
         foreach (Panel panel in panels)
@@ -25,5 +26,9 @@ public class PanelSwapper : SingletomMonobehavior<PanelSwapper>
                 panel.gameObject.SetActive(false);
             }
         }
+    }
+    public void QuitGame()
+    {
+        Application.Quit();
     }
 }

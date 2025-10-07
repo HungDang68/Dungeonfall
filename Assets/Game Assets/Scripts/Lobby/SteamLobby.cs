@@ -32,7 +32,7 @@ public class SteamLobby : NetworkBehaviour
             Destroy(gameObject);
             return;
         }
-    }
+    }   
     void Start()
     {
         networkManager = FindAnyObjectByType<NetworkManager>();

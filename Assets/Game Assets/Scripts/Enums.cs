@@ -14,5 +14,6 @@ public enum GameState
     levelCompleted,
     gameWon,
     gameLost,
+    gamePaused,
 }
 

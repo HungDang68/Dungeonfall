@@ -251,8 +251,9 @@ GameObject:
   m_Component:
   - component: {fileID: 450834813}
   - component: {fileID: 450834816}
-  - component: {fileID: 450834815}
   - component: {fileID: 450834814}
+  - component: {fileID: 450834818}
+  - component: {fileID: 450834817}
   m_Layer: 0
   m_Name: NetworkManerger
   m_TagString: Untagged
@@ -304,20 +305,6 @@ MonoBehaviour:
   debugLog: 0
   statisticsGUI: 0
   statisticsLog: 0
---- !u!114 &450834815
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 450834812}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6442dc8070ceb41f094e44de0bf87274, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Mirror::Mirror.NetworkManagerHUD
-  offsetX: -17
-  offsetY: 0
 --- !u!114 &450834816
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -363,7 +350,6 @@ MonoBehaviour:
   - {fileID: 8682268759644293216, guid: 51037e63fd367b147a0e42ecb8dd9ca7, type: 3}
   - {fileID: 3116218219496867841, guid: d8e9135eeb333de41837a739149db45f, type: 3}
   - {fileID: 3116218219496867841, guid: 52191bf242e70594aafaf7e83f1b394a, type: 3}
-  - {fileID: 8729006353087181822, guid: 3ad1abaf58ce70849bd22031d9cae962, type: 3}
   - {fileID: 5244540861127782265, guid: de7c671535405ce4c97ed6bbdc6d0bdb, type: 3}
   - {fileID: 3116218219496867841, guid: f58e33994c2bcfe4da8b42b7fcd6ecd2, type: 3}
   - {fileID: 6905482962454052957, guid: c1366713e913a554ba51c682426ea151, type: 3}
@@ -382,6 +368,52 @@ MonoBehaviour:
   evaluationMethod: 0
   evaluationInterval: 3
   timeInterpolationGui: 0
+--- !u!114 &450834817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 450834812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88c37d3deca7a834d80cfd8d3cfcc510, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Mirror.Components::Mirror.Discovery.NetworkDiscoveryHUD
+  networkDiscovery: {fileID: 450834818}
+--- !u!114 &450834818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 450834812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c761308e733c51245b2e8bb4201f46dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Mirror.Components::Mirror.Discovery.NetworkDiscovery
+  enableActiveDiscovery: 1
+  BroadcastAddress: 
+  serverBroadcastListenPort: 47777
+  ActiveDiscoveryInterval: 3
+  transport: {fileID: 450834814}
+  OnServerFound:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 450834817}
+        m_TargetAssemblyTypeName: Mirror.Discovery.NetworkDiscoveryHUD, Mirror.Components
+        m_MethodName: OnDiscoveredServer
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  secretHandshake: 2390949332380358821
 --- !u!1 &476819138
 GameObject:
   m_ObjectHideFlags: 0

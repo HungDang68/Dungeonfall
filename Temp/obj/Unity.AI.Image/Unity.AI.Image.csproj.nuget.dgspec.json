@@ -1,0 +1,1302 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Image.csproj": {}
+  },
+  "projects": {
+    "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Generators.Asset.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Generators.Asset.csproj",
+        "projectName": "Unity.AI.Generators.Asset",
+        "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Generators.Asset.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\App\\Unity project\\Test Stuff\\Temp\\obj\\Unity.AI.Generators.Asset\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Generators.Contexts.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Generators.Contexts.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Generators.Redux.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Generators.Redux.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Toolkit.Asset.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Toolkit.Asset.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Toolkit.Async.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Toolkit.Async.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Toolkit.Compliance.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Toolkit.Compliance.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEditor.TestRunner.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEditor.TestRunner.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEngine.TestRunner.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEngine.TestRunner.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Generators.Contexts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Generators.Contexts.csproj",
+        "projectName": "Unity.AI.Generators.Contexts",
+        "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Generators.Contexts.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\App\\Unity project\\Test Stuff\\Temp\\obj\\Unity.AI.Generators.Contexts\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\App\\Unity project\\Test Stuff\\UnityEditor.TestRunner.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEditor.TestRunner.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEngine.TestRunner.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEngine.TestRunner.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Generators.Redux.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Generators.Redux.csproj",
+        "projectName": "Unity.AI.Generators.Redux",
+        "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Generators.Redux.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\App\\Unity project\\Test Stuff\\Temp\\obj\\Unity.AI.Generators.Redux\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Generators.Contexts.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Generators.Contexts.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Toolkit.Async.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Toolkit.Async.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEditor.TestRunner.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEditor.TestRunner.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEngine.TestRunner.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEngine.TestRunner.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Generators.Sdk.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Generators.Sdk.csproj",
+        "projectName": "Unity.AI.Generators.Sdk",
+        "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Generators.Sdk.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\App\\Unity project\\Test Stuff\\Temp\\obj\\Unity.AI.Generators.Sdk\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Generators.Asset.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Generators.Asset.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Toolkit.Async.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Toolkit.Async.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEditor.TestRunner.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEditor.TestRunner.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEngine.TestRunner.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEngine.TestRunner.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Generators.UI.AIDropdownIntegrations.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Generators.UI.AIDropdownIntegrations.csproj",
+        "projectName": "Unity.AI.Generators.UI.AIDropdownIntegrations",
+        "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Generators.UI.AIDropdownIntegrations.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\App\\Unity project\\Test Stuff\\Temp\\obj\\Unity.AI.Generators.UI.AIDropdownIntegrations\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Generators.Asset.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Generators.Asset.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Toolkit.Accounts.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Toolkit.Accounts.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEditor.TestRunner.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEditor.TestRunner.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEngine.TestRunner.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEngine.TestRunner.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Generators.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Generators.UI.csproj",
+        "projectName": "Unity.AI.Generators.UI",
+        "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Generators.UI.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\App\\Unity project\\Test Stuff\\Temp\\obj\\Unity.AI.Generators.UI\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Generators.Asset.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Generators.Asset.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Generators.Redux.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Generators.Redux.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Generators.Sdk.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Generators.Sdk.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Toolkit.Accounts.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Toolkit.Accounts.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Toolkit.Async.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Toolkit.Async.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Toolkit.Compliance.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Toolkit.Compliance.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEditor.TestRunner.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEditor.TestRunner.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEngine.TestRunner.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEngine.TestRunner.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Image.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Image.csproj",
+        "projectName": "Unity.AI.Image",
+        "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Image.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\App\\Unity project\\Test Stuff\\Temp\\obj\\Unity.AI.Image\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Generators.Asset.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Generators.Asset.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Generators.Contexts.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Generators.Contexts.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Generators.Redux.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Generators.Redux.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Generators.Sdk.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Generators.Sdk.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Generators.UI.AIDropdownIntegrations.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Generators.UI.AIDropdownIntegrations.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Generators.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Generators.UI.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\Unity.AI.ModelSelector.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.AI.ModelSelector.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Toolkit.Accounts.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Toolkit.Accounts.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Toolkit.Asset.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Toolkit.Asset.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Toolkit.Async.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Toolkit.Async.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Toolkit.Compliance.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Toolkit.Compliance.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Toolkit.GenerationContextMenu.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Toolkit.GenerationContextMenu.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Toolkit.GenerationObjectPicker.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Toolkit.GenerationObjectPicker.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEditor.TestRunner.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEditor.TestRunner.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEngine.TestRunner.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEngine.TestRunner.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\App\\Unity project\\Test Stuff\\Unity.AI.ModelSelector.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\App\\Unity project\\Test Stuff\\Unity.AI.ModelSelector.csproj",
+        "projectName": "Unity.AI.ModelSelector",
+        "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.AI.ModelSelector.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\App\\Unity project\\Test Stuff\\Temp\\obj\\Unity.AI.ModelSelector\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Generators.Asset.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Generators.Asset.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Generators.Contexts.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Generators.Contexts.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Generators.Redux.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Generators.Redux.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Generators.Sdk.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Generators.Sdk.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Generators.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Generators.UI.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Toolkit.Accounts.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Toolkit.Accounts.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Toolkit.Async.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Toolkit.Async.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEditor.TestRunner.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEditor.TestRunner.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEngine.TestRunner.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEngine.TestRunner.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Toolkit.Accounts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Toolkit.Accounts.csproj",
+        "projectName": "Unity.AI.Toolkit.Accounts",
+        "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Toolkit.Accounts.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\App\\Unity project\\Test Stuff\\Temp\\obj\\Unity.AI.Toolkit.Accounts\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Toolkit.Async.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Toolkit.Async.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEditor.TestRunner.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEditor.TestRunner.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEngine.TestRunner.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEngine.TestRunner.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Toolkit.Asset.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Toolkit.Asset.csproj",
+        "projectName": "Unity.AI.Toolkit.Asset",
+        "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Toolkit.Asset.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\App\\Unity project\\Test Stuff\\Temp\\obj\\Unity.AI.Toolkit.Asset\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\App\\Unity project\\Test Stuff\\UnityEditor.TestRunner.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEditor.TestRunner.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEngine.TestRunner.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEngine.TestRunner.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Toolkit.Async.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Toolkit.Async.csproj",
+        "projectName": "Unity.AI.Toolkit.Async",
+        "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Toolkit.Async.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\App\\Unity project\\Test Stuff\\Temp\\obj\\Unity.AI.Toolkit.Async\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\App\\Unity project\\Test Stuff\\UnityEditor.TestRunner.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEditor.TestRunner.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEngine.TestRunner.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEngine.TestRunner.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Toolkit.Compliance.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Toolkit.Compliance.csproj",
+        "projectName": "Unity.AI.Toolkit.Compliance",
+        "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Toolkit.Compliance.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\App\\Unity project\\Test Stuff\\Temp\\obj\\Unity.AI.Toolkit.Compliance\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\App\\Unity project\\Test Stuff\\UnityEditor.TestRunner.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEditor.TestRunner.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEngine.TestRunner.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEngine.TestRunner.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Toolkit.GenerationContextMenu.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Toolkit.GenerationContextMenu.csproj",
+        "projectName": "Unity.AI.Toolkit.GenerationContextMenu",
+        "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Toolkit.GenerationContextMenu.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\App\\Unity project\\Test Stuff\\Temp\\obj\\Unity.AI.Toolkit.GenerationContextMenu\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Toolkit.Accounts.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Toolkit.Accounts.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEditor.TestRunner.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEditor.TestRunner.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEngine.TestRunner.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEngine.TestRunner.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Toolkit.GenerationObjectPicker.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Toolkit.GenerationObjectPicker.csproj",
+        "projectName": "Unity.AI.Toolkit.GenerationObjectPicker",
+        "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Toolkit.GenerationObjectPicker.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\App\\Unity project\\Test Stuff\\Temp\\obj\\Unity.AI.Toolkit.GenerationObjectPicker\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Toolkit.Accounts.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Toolkit.Accounts.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Toolkit.Asset.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Toolkit.Asset.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Toolkit.Async.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\Unity.AI.Toolkit.Async.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEditor.TestRunner.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEditor.TestRunner.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEngine.TestRunner.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEngine.TestRunner.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\App\\Unity project\\Test Stuff\\UnityEditor.TestRunner.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\App\\Unity project\\Test Stuff\\UnityEditor.TestRunner.csproj",
+        "projectName": "UnityEditor.TestRunner",
+        "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEditor.TestRunner.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\App\\Unity project\\Test Stuff\\Temp\\obj\\UnityEditor.TestRunner\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\App\\Unity project\\Test Stuff\\UnityEngine.TestRunner.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEngine.TestRunner.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj",
+        "projectName": "UnityEditor.UI",
+        "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEditor.UI.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\App\\Unity project\\Test Stuff\\Temp\\obj\\UnityEditor.UI\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\App\\Unity project\\Test Stuff\\UnityEditor.TestRunner.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEditor.TestRunner.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEngine.TestRunner.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEngine.TestRunner.csproj"
+              },
+              "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj": {
+                "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\App\\Unity project\\Test Stuff\\UnityEngine.TestRunner.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\App\\Unity project\\Test Stuff\\UnityEngine.TestRunner.csproj",
+        "projectName": "UnityEngine.TestRunner",
+        "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEngine.TestRunner.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\App\\Unity project\\Test Stuff\\Temp\\obj\\UnityEngine.TestRunner\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj",
+        "projectName": "UnityEngine.UI",
+        "projectPath": "D:\\App\\Unity project\\Test Stuff\\UnityEngine.UI.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\App\\Unity project\\Test Stuff\\Temp\\obj\\UnityEngine.UI\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

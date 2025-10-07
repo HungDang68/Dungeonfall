@@ -57,6 +57,4 @@ public class PlayerHandler : NetworkBehaviour
         cb.selectedColor = color;
         readyButton.colors = cb;
     }
-
-
 }

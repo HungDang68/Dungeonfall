@@ -14,7 +14,7 @@ public class CustomNetworkManager : NetworkManager
     // have to cast to this type everywhere.
     public static new CustomNetworkManager singleton => (CustomNetworkManager)NetworkManager.singleton;
 
-
+    private bool isSwitchingToGameplay = false;
     public GameObject playerGameplayPrefab;
     /// <summary>
     /// Runs on both Server and Client
@@ -89,12 +89,26 @@ public class CustomNetworkManager : NetworkManager
     /// <param name="newSceneName"></param>
     public override void ServerChangeScene(string newSceneName)
     {
+        Debug.Log($"ServerChangeScene called: {newSceneName}");
+
         if (newSceneName == "Dungeon")
         {
-            this.playerPrefab = playerGameplayPrefab;
-            this.onlineScene = newSceneName;
+            isSwitchingToGameplay = true;
+            Debug.Log("Switching to gameplay - changing player prefab");
+
+            // Store the original prefab so we can restore it if needed
+            var originalPrefab = playerPrefab;
+            playerPrefab = playerGameplayPrefab;
+
+            base.ServerChangeScene(newSceneName);
+
+            // Don't restore immediately - wait for scene change to complete
         }
-        base.ServerChangeScene(newSceneName);
+        else
+        {
+            isSwitchingToGameplay = false;
+            base.ServerChangeScene(newSceneName);
+        }
     }
 
 
@@ -109,7 +123,32 @@ public class CustomNetworkManager : NetworkManager
     /// Called on the server when a scene is completed loaded, when the scene load was initiated by the server with ServerChangeScene().
     /// </summary>
     /// <param name="sceneName">The name of the new scene.</param>
-    public override void OnServerSceneChanged(string sceneName) { }
+    public override void OnServerSceneChanged(string sceneName)
+    {
+        Debug.Log($"OnServerSceneChanged: {sceneName}");
+
+        if (sceneName == "Dungeon")
+        {
+            Debug.Log("Dungeon scene loaded on server - spawning gameplay players");
+
+            // Spawn players for all connections
+            foreach (var conn in NetworkServer.connections.Values)
+            {
+                if (conn != null && conn.identity == null)
+                {
+                    Debug.Log($"Spawning gameplay player for connection {conn.connectionId}");
+                    GameObject player = Instantiate(playerGameplayPrefab);
+                    NetworkServer.AddPlayerForConnection(conn, player);
+                }
+                else if (conn != null && conn.identity != null)
+                {
+                    Debug.Log($"Connection {conn.connectionId} already has player: {conn.identity.name}");
+                }
+            }
+        }
+
+        base.OnServerSceneChanged(sceneName);
+    }
 
     /// <summary>
     /// Called from ClientChangeScene immediately before SceneManager.LoadSceneAsync is executed
@@ -126,6 +165,21 @@ public class CustomNetworkManager : NetworkManager
     /// </summary>
     public override void OnClientSceneChanged()
     {
+        Debug.Log($"OnClientSceneChanged - Scene: {SceneManager.GetActiveScene().name}, Ready: {NetworkClient.ready}");
+
+        // Always make sure the client is ready
+        if (!NetworkClient.ready)
+        {
+            NetworkClient.Ready();
+        }
+
+        // Only add player if we're in gameplay scene and don't have a player
+        if (SceneManager.GetActiveScene().name == "Dungeon" && NetworkClient.localPlayer == null)
+        {
+            Debug.Log("Adding player in gameplay scene");
+            NetworkClient.AddPlayer();
+        }
+
         base.OnClientSceneChanged();
     }
 

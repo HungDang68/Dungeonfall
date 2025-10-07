@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "D:\\App\\Unity project\\Test Stuff\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{298C82E7-0AC1-9E6C-7700-0BC3ABE69D43}|Assembly-CSharp.csproj|d:\\app\\unity project\\test stuff\\assets\\scripts\\player movement\\player move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{298C82E7-0AC1-9E6C-7700-0BC3ABE69D43}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player movement\\player move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{274D02D8-AA5D-CEC9-784B-D17DB39B1E91}|Unity.2D.Tilemap.Extras.Editor.csproj|d:\\app\\unity project\\test stuff\\library\\packagecache\\com.unity.2d.tilemap.extras@eefc9f6533f8\\editor\\tiles\\autotile\\autotiletemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{274D02D8-AA5D-CEC9-784B-D17DB39B1E91}|Unity.2D.Tilemap.Extras.Editor.csproj|solutionrelative:library\\packagecache\\com.unity.2d.tilemap.extras@eefc9f6533f8\\editor\\tiles\\autotile\\autotiletemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECD77923-DA80-DB2F-87A9-B229CCD8F18B}|Unity.InternalAPIEditorBridge.001.csproj|d:\\app\\unity project\\test stuff\\library\\packagecache\\com.unity.2d.aseprite@85ecd97bb34e\\editor\\common\\internalbridge\\internaleditorbridge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECD77923-DA80-DB2F-87A9-B229CCD8F18B}|Unity.InternalAPIEditorBridge.001.csproj|solutionrelative:library\\packagecache\\com.unity.2d.aseprite@85ecd97bb34e\\editor\\common\\internalbridge\\internaleditorbridge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\App\\Unity project\\Test Stuff\\Assets\\Scripts\\Player Movement\\Player Move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Player Movement\\Player Move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,15 +39,39 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AutoTileTemplate.cs",
+              "DocumentMoniker": "D:\\App\\Unity project\\Test Stuff\\Library\\PackageCache\\com.unity.2d.tilemap.extras@eefc9f6533f8\\Editor\\Tiles\\AutoTile\\AutoTileTemplate.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.2d.tilemap.extras@eefc9f6533f8\\Editor\\Tiles\\AutoTile\\AutoTileTemplate.cs",
+              "ToolTip": "D:\\App\\Unity project\\Test Stuff\\Library\\PackageCache\\com.unity.2d.tilemap.extras@eefc9f6533f8\\Editor\\Tiles\\AutoTile\\AutoTileTemplate.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.2d.tilemap.extras@eefc9f6533f8\\Editor\\Tiles\\AutoTile\\AutoTileTemplate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T09:20:30.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InternalEditorBridge.cs",
+              "DocumentMoniker": "D:\\App\\Unity project\\Test Stuff\\Library\\PackageCache\\com.unity.2d.aseprite@85ecd97bb34e\\Editor\\Common\\InternalBridge\\InternalEditorBridge.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.2d.aseprite@85ecd97bb34e\\Editor\\Common\\InternalBridge\\InternalEditorBridge.cs",
+              "ToolTip": "D:\\App\\Unity project\\Test Stuff\\Library\\PackageCache\\com.unity.2d.aseprite@85ecd97bb34e\\Editor\\Common\\InternalBridge\\InternalEditorBridge.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.2d.aseprite@85ecd97bb34e\\Editor\\Common\\InternalBridge\\InternalEditorBridge.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T09:18:06.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Player Move.cs",
               "DocumentMoniker": "D:\\App\\Unity project\\Test Stuff\\Assets\\Scripts\\Player Movement\\Player Move.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player Movement\\Player Move.cs",
               "ToolTip": "D:\\App\\Unity project\\Test Stuff\\Assets\\Scripts\\Player Movement\\Player Move.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player Movement\\Player Move.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T10:06:48.331Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T10:06:48.331Z"
             }
           ]
         }
